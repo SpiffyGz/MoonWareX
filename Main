@@ -1,0 +1,602 @@
+-- Made By SpiffyGz 
+-- Key: MoonWareX
+
+local ScreenGui = Instance.new("ScreenGui")
+local KeyFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local KeyHere = Instance.new("TextBox")
+local LoadScript = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UpdateLogs = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local MainFrame = Instance.new("Frame")
+local SideFrame = Instance.new("Frame")
+local HomeButton = Instance.new("TextButton")
+local Icon = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local SettingsFrame = Instance.new("TextButton")
+local Icon_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local InfoFrame = Instance.new("TextButton")
+local Icon_3 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local MoonWare = Instance.new("TextLabel")
+local Icon_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local V1 = Instance.new("TextLabel")
+local HomeFrame = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local MoonWareLock = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local SpeedC = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local AimWareLock = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Esp = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local FaceChanger = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local AnimationCombo = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local SettingFrame = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local InfoFrame_2 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+KeyFrame.Name = "KeyFrame"
+KeyFrame.Parent = ScreenGui
+KeyFrame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+KeyFrame.BackgroundTransparency = 0.100
+KeyFrame.Position = UDim2.new(0.389692038, 0, 0.345029235, 0)
+KeyFrame.Size = UDim2.new(0, 350, 0, 265)
+KeyFrame.Active = true
+KeyFrame.Draggable = true
+
+UICorner.Parent = KeyFrame
+
+KeyHere.Name = "KeyHere"
+KeyHere.Parent = KeyFrame
+KeyHere.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+KeyHere.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyHere.Position = UDim2.new(0.214285716, 0, 0.509433985, 0)
+KeyHere.Size = UDim2.new(0, 200, 0, 50)
+KeyHere.Font = Enum.Font.SourceSansSemibold
+KeyHere.Text = "KEYHERE"
+KeyHere.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyHere.TextSize = 20.000
+
+LoadScript.Name = "LoadScript"
+LoadScript.Parent = KeyFrame
+LoadScript.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+LoadScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadScript.Position = UDim2.new(0.299999982, 0, 0.735849082, 0)
+LoadScript.Size = UDim2.new(0, 140, 0, 50)
+LoadScript.Font = Enum.Font.SourceSansSemibold
+LoadScript.Text = "Load Script"
+LoadScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadScript.TextSize = 20.000
+
+ScrollingFrame.Parent = KeyFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.0599999987, 0, 0.0603773594, 0)
+ScrollingFrame.Size = UDim2.new(0, 308, 0, 100)
+ScrollingFrame.ScrollBarThickness = 9
+
+UpdateLogs.Name = "UpdateLogs"
+UpdateLogs.Parent = ScrollingFrame
+UpdateLogs.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+UpdateLogs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UpdateLogs.Size = UDim2.new(0, 308, 0, 18)
+UpdateLogs.Font = Enum.Font.SourceSans
+UpdateLogs.Text = "Update Logs"
+UpdateLogs.TextColor3 = Color3.fromRGB(0, 0, 0)
+UpdateLogs.TextSize = 14.000
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.0324905068, 0)
+TextLabel.Size = UDim2.new(0, 296, 0, 17)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "| 3/18/2022 | Added MoonWare Aimlock for 143 robux"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.019480519, 0, 0.0645659789, 0)
+TextLabel_2.Size = UDim2.new(0, 296, 0, 17)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "| 3/18/2022 | Added ScriptHub"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.0966414511, 0)
+TextLabel_3.Size = UDim2.new(0, 296, 0, 17)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "| 3/19/2022 | Removed ScriptHub"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.128716916, 0)
+TextLabel_4.Size = UDim2.new(0, 296, 0, 17)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "| 3/19/2022 | Added Speed, Face changer, Animation combo"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.019480519, 0, 0.160792381, 0)
+TextLabel_5.Size = UDim2.new(0, 296, 0, 17)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "| 3/19/2022 | Added Toggle Key"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.019480519, 0, 0.192867845, 0)
+TextLabel_6.Size = UDim2.new(0, 296, 0, 17)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "| 3/19/2022 | Added More Scripts Into home"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = KeyFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0594805032, 0, 0.923056543, 0)
+TextLabel_7.Size = UDim2.new(0, 61, 0, 17)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Key: MoonWareX"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.328783095, 0, 0.373261184, 0)
+MainFrame.Size = UDim2.new(0, 420, 0, 300)
+MainFrame.Visible = false
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = MainFrame
+SideFrame.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+SideFrame.BorderSizePixel = 0
+SideFrame.Size = UDim2.new(0, 90, 0, 300)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = SideFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.BackgroundTransparency = 1.000
+HomeButton.Position = UDim2.new(0, 0, 0.200000003, 0)
+HomeButton.Size = UDim2.new(0, 90, 0, 50)
+HomeButton.Font = Enum.Font.SourceSans
+HomeButton.Text = "."
+HomeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeButton.TextSize = 14.000
+
+Icon.Name = "Icon"
+Icon.Parent = HomeButton
+Icon.BackgroundTransparency = 1.000
+Icon.Position = UDim2.new(0.211111113, 0, -0.0199999996, 0)
+Icon.Size = UDim2.new(0.555555582, 0, 1, 0)
+Icon.Image = "rbxassetid://7072717697"
+
+UIAspectRatioConstraint.Parent = Icon
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = SideFrame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsFrame.BackgroundTransparency = 1.000
+SettingsFrame.Position = UDim2.new(0, 0, 0.413333327, 0)
+SettingsFrame.Size = UDim2.new(0, 90, 0, 50)
+SettingsFrame.Font = Enum.Font.SourceSans
+SettingsFrame.Text = "."
+SettingsFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
+SettingsFrame.TextSize = 14.000
+
+Icon_2.Name = "Icon"
+Icon_2.Parent = SettingsFrame
+Icon_2.BackgroundTransparency = 1.000
+Icon_2.Position = UDim2.new(0.222222224, 0, 0.0199999996, 0)
+Icon_2.Size = UDim2.new(0.544444442, 0, 0.980000019, 0)
+Icon_2.Image = "rbxassetid://7072721682"
+
+UIAspectRatioConstraint_2.Parent = Icon_2
+
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = SideFrame
+InfoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoFrame.BackgroundTransparency = 1.000
+InfoFrame.Position = UDim2.new(0, 0, 0.639999986, 0)
+InfoFrame.Size = UDim2.new(0, 90, 0, 50)
+InfoFrame.Font = Enum.Font.SourceSans
+InfoFrame.Text = "."
+InfoFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfoFrame.TextSize = 14.000
+
+Icon_3.Name = "Icon"
+Icon_3.Parent = InfoFrame
+Icon_3.BackgroundTransparency = 1.000
+Icon_3.Position = UDim2.new(0.233333334, 0, 0, 0)
+Icon_3.Size = UDim2.new(0.655555546, 0, 0.999999404, 0)
+Icon_3.Image = "rbxassetid://7072717857"
+
+UIAspectRatioConstraint_3.Parent = Icon_3
+
+MoonWare.Name = "MoonWare"
+MoonWare.Parent = SideFrame
+MoonWare.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+MoonWare.BorderSizePixel = 0
+MoonWare.Position = UDim2.new(0.088888891, 0, 0, 0)
+MoonWare.Size = UDim2.new(0, 78, 0, 27)
+MoonWare.Font = Enum.Font.SourceSansSemibold
+MoonWare.Text = "MoonWare"
+MoonWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+MoonWare.TextSize = 14.000
+
+Icon_4.Name = "Icon"
+Icon_4.Parent = MoonWare
+Icon_4.BackgroundTransparency = 1.000
+Icon_4.Position = UDim2.new(-0.048780486, 0, 0.194815189, 0)
+Icon_4.Size = UDim2.new(0.195121929, 0, 0.694073617, 0)
+Icon_4.Image = "rbxassetid://7072719446"
+
+UIAspectRatioConstraint_4.Parent = Icon_4
+
+V1.Name = "V1"
+V1.Parent = SideFrame
+V1.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+V1.BorderSizePixel = 0
+V1.Position = UDim2.new(0, 0, 0.929999888, 0)
+V1.Size = UDim2.new(0, 90, 0, 20)
+V1.Font = Enum.Font.SourceSansSemibold
+V1.Text = "v 1.0.0"
+V1.TextColor3 = Color3.fromRGB(255, 255, 255)
+V1.TextSize = 20.000
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = MainFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+HomeFrame.BackgroundTransparency = 1.000
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.214285731, 0, 0.00333333341, 0)
+HomeFrame.Size = UDim2.new(0, 330, 0, 299)
+HomeFrame.Visible = false
+
+TextLabel_8.Parent = HomeFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0575757585, 0, 0.264214039, 0)
+TextLabel_8.Size = UDim2.new(0, 90, 0, 16)
+TextLabel_8.Visible = false
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "Link copied!"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+MoonWareLock.Name = "MoonWare Lock"
+MoonWareLock.Parent = HomeFrame
+MoonWareLock.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+MoonWareLock.BorderSizePixel = 0
+MoonWareLock.Position = UDim2.new(0.0575757585, 0, 0.0635451525, 0)
+MoonWareLock.Size = UDim2.new(0, 90, 0, 60)
+MoonWareLock.Font = Enum.Font.SourceSansSemibold
+MoonWareLock.Text = "MoonWare Lock"
+MoonWareLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+MoonWareLock.TextSize = 14.000
+
+UICorner_2.Parent = MoonWareLock
+
+SpeedC.Name = "Speed (C)"
+SpeedC.Parent = HomeFrame
+SpeedC.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+SpeedC.BorderSizePixel = 0
+SpeedC.Position = UDim2.new(0.669696987, 0, 0.0635451525, 0)
+SpeedC.Size = UDim2.new(0, 90, 0, 60)
+SpeedC.Font = Enum.Font.SourceSansSemibold
+SpeedC.Text = "Speed (C)"
+SpeedC.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedC.TextSize = 14.000
+
+UICorner_3.Parent = SpeedC
+
+AimWareLock.Name = "AimWareLock"
+AimWareLock.Parent = HomeFrame
+AimWareLock.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+AimWareLock.BorderSizePixel = 0
+AimWareLock.Position = UDim2.new(0.0575757585, 0, 0.39464885, 0)
+AimWareLock.Size = UDim2.new(0, 90, 0, 60)
+AimWareLock.Font = Enum.Font.SourceSansSemibold
+AimWareLock.Text = "AimWareLock"
+AimWareLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimWareLock.TextSize = 14.000
+
+UICorner_4.Parent = AimWareLock
+
+Esp.Name = "Esp"
+Esp.Parent = HomeFrame
+Esp.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+Esp.BorderSizePixel = 0
+Esp.Position = UDim2.new(0.669696987, 0, 0.39464885, 0)
+Esp.Size = UDim2.new(0, 90, 0, 60)
+Esp.Font = Enum.Font.SourceSansSemibold
+Esp.Text = "Project Bullshit (esp)"
+Esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esp.TextSize = 14.000
+Esp.TextWrapped = true
+
+UICorner_5.Parent = Esp
+
+FaceChanger.Name = "Face Changer"
+FaceChanger.Parent = HomeFrame
+FaceChanger.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+FaceChanger.BorderSizePixel = 0
+FaceChanger.Position = UDim2.new(0.669696987, 0, 0.729097009, 0)
+FaceChanger.Size = UDim2.new(0, 90, 0, 60)
+FaceChanger.Font = Enum.Font.SourceSansSemibold
+FaceChanger.Text = "Face Changer"
+FaceChanger.TextColor3 = Color3.fromRGB(255, 255, 255)
+FaceChanger.TextSize = 14.000
+FaceChanger.TextWrapped = true
+
+UICorner_6.Parent = FaceChanger
+
+AnimationCombo.Name = "Animation Combo"
+AnimationCombo.Parent = HomeFrame
+AnimationCombo.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+AnimationCombo.BorderSizePixel = 0
+AnimationCombo.Position = UDim2.new(0.0575757623, 0, 0.729097009, 0)
+AnimationCombo.Size = UDim2.new(0, 90, 0, 60)
+AnimationCombo.Font = Enum.Font.SourceSansSemibold
+AnimationCombo.Text = "Animation Combo"
+AnimationCombo.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationCombo.TextSize = 14.000
+AnimationCombo.TextWrapped = true
+
+UICorner_7.Parent = AnimationCombo
+
+SettingFrame.Name = "SettingFrame"
+SettingFrame.Parent = MainFrame
+SettingFrame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+SettingFrame.BackgroundTransparency = 1.000
+SettingFrame.BorderSizePixel = 0
+SettingFrame.Position = UDim2.new(0.214285731, 0, 0.00333333341, 0)
+SettingFrame.Size = UDim2.new(0, 330, 0, 299)
+SettingFrame.Visible = false
+
+TextLabel_9.Parent = SettingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.230303034, 0, 0.0869565234, 0)
+TextLabel_9.Size = UDim2.new(0, 203, 0, 33)
+TextLabel_9.Font = Enum.Font.SourceSansSemibold
+TextLabel_9.Text = "Toggle Key- RightControl"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = SettingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.230303034, 0, 0.491638809, 0)
+TextLabel_10.Size = UDim2.new(0, 203, 0, 26)
+TextLabel_10.Font = Enum.Font.SourceSansSemibold
+TextLabel_10.Text = "Twitter: https://twitter.com/SpiffyGz "
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = SettingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.230303034, 0, 0.57859534, 0)
+TextLabel_11.Size = UDim2.new(0, 203, 0, 47)
+TextLabel_11.Font = Enum.Font.SourceSansSemibold
+TextLabel_11.Text = "Youtube: https://www.youtube.com/channel/UC4fOKlW3__ku8v5QQDv1NKA https://www.youtube.com/channel/UC4fOKlW3__ku8v5QQDv1NKA"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+InfoFrame_2.Name = "InfoFrame"
+InfoFrame_2.Parent = MainFrame
+InfoFrame_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+InfoFrame_2.BackgroundTransparency = 1.000
+InfoFrame_2.BorderSizePixel = 0
+InfoFrame_2.Position = UDim2.new(0.214285731, 0, 0.00333333341, 0)
+InfoFrame_2.Size = UDim2.new(0, 330, 0, 299)
+InfoFrame_2.Visible = false
+
+TextLabel_12.Parent = InfoFrame_2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.230303019, 0, 0.0869565234, 0)
+TextLabel_12.Size = UDim2.new(0, 203, 0, 68)
+TextLabel_12.Font = Enum.Font.SourceSansSemibold
+TextLabel_12.Text = "To unlock the aimlock msg spiffyL#0173 with proof and he will give you it"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = InfoFrame_2
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.230303019, 0, 0.57859534, 0)
+TextLabel_13.Size = UDim2.new(0, 203, 0, 68)
+TextLabel_13.Font = Enum.Font.SourceSansSemibold
+TextLabel_13.Text = "More Coming Soon!!"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+-- Scripts:
+
+local function NEPYV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local KeyFrame = script.Parent.KeyFrame
+	local MainFrame = script.Parent.MainFrame
+	local LoadScript = script.Parent.KeyFrame.LoadScript
+	local KeyHere = script.Parent.KeyFrame.KeyHere
+	
+	
+	LoadScript.MouseButton1Down:Connect(function()
+		if KeyHere.Text == "MoonWareX" then
+			KeyFrame:TweenPosition(UDim2.new(0.417, 0.417 ,0 , 1080))
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "SpifX Loaded";
+				Text = "BETA";
+				Duration = 3;
+			})
+	
+			wait(2)
+			KeyFrame.Visible = false
+			wait(1)
+			MainFrame.Visible = true
+	
+	
+		end
+	end)
+end
+coroutine.wrap(NEPYV_fake_script)()
+local function ENJGNE_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		print("Home Frame")
+		script.Parent.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.Parent.SettingFrame.Visible = false
+		script.Parent.Parent.Parent.InfoFrame.Visible = false
+	end)
+end
+coroutine.wrap(ENJGNE_fake_script)()
+local function HQZE_fake_script() -- SettingsFrame.LocalScript 
+	local script = Instance.new('LocalScript', SettingsFrame)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		print("Settings Frame")
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.SettingFrame.Visible = true
+		script.Parent.Parent.Parent.InfoFrame.Visible = false
+	end)
+end
+coroutine.wrap(HQZE_fake_script)()
+local function MWRWISR_fake_script() -- InfoFrame.LocalScript 
+	local script = Instance.new('LocalScript', InfoFrame)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		print("Info Frame")
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.SettingFrame.Visible = false
+		script.Parent.Parent.Parent.InfoFrame.Visible = true
+	end)
+end
+coroutine.wrap(MWRWISR_fake_script)()
+local function SFYYEDD_fake_script() -- MoonWareLock.LocalScript 
+	local script = Instance.new('LocalScript', MoonWareLock)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		setclipboard("https://www.roblox.com/game-pass/35031212/MoonLight")
+		script.Parent.Parent.TextLabel.Visible = true
+		wait(5)
+		script.Parent.Parent.TextLabel.Visible = false
+		wait(0.7)
+		script.Parent.Parent.Parent.InfoFrame.Visible = t
+	end)
+end
+coroutine.wrap(SFYYEDD_fake_script)()
+local function ORRO_fake_script() -- SpeedC.LocalScript 
+	local script = Instance.new('LocalScript', SpeedC)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/Speedc/main/SuperSpeedC ", true))()
+	end)
+end
+coroutine.wrap(ORRO_fake_script)()
+local function OUIJ_fake_script() -- AimWareLock.LocalScript 
+	local script = Instance.new('LocalScript', AimWareLock)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Hyotinhofofinho/s1mple/main/LIXO"))()
+	end)
+end
+coroutine.wrap(OUIJ_fake_script)()
+local function YBYWIZ_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+	end)
+end
+coroutine.wrap(YBYWIZ_fake_script)()
+local function FBSWL_fake_script() -- FaceChanger.LocalScript 
+	local script = Instance.new('LocalScript', FaceChanger)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/carlcoded/Scripts/main/carlface'))()
+	end)
+end
+coroutine.wrap(FBSWL_fake_script)()
+local function JAWQRPJ_fake_script() -- AnimationCombo.LocalScript 
+	local script = Instance.new('LocalScript', AnimationCombo)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/carlcoded/scripp/main/animationcombos'))()
+	end)
+end
+coroutine.wrap(JAWQRPJ_fake_script)()
+local function EDLP_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local MainFrame = script.Parent.MainFrame
+	local Open = false
+	
+	local PositionClosed = UDim2.new(0.346, 0,0.999, 0)
+	local PositionOpen = UDim2.new(0.306, 0,0.144, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.RightControl then
+			if Open then
+				MainFrame:TweenPosition((PositionClosed), "Out", "Sine")
+				Open = false
+			else
+				Open = true
+				MainFrame:TweenPosition((PositionOpen), "Out", "Sine")
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(EDLP_fake_script)()
