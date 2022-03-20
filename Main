@@ -474,9 +474,9 @@ local function NEPYV_fake_script() -- ScreenGui.LocalScript
 		if KeyHere.Text == "MoonWareX" then
 			KeyFrame:TweenPosition(UDim2.new(0.417, 0.417 ,0 , 1080))
 			game:GetService("StarterGui"):SetCore("SendNotification", {
-				Title = "SpifX Loaded";
-				Text = "BETA";
-				Duration = 3;
+				Title = "MoonWareX";
+				Text = "Loading";
+				Duration = 9e9;
 			})
 	
 			wait(2)
